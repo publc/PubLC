@@ -1,13 +1,6 @@
 {
-  "extends": ["airbnb-base", "plugin:vue/strongly-recommended"],
+  "extends": ["airbnb-base"],
   "rules": {
-    "no-console": "off",
-    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
-    "vue/html-closing-bracket-spacing": [
-      "error",
-      {
-        "selfClosingTag": "never"
-      }
-    ]
+    "no-console": "off"
   }
 }
